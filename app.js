@@ -63,6 +63,38 @@ app.get("/job" , function(req,res){
     });
 });
 
+app.get("/figma",function(req,res){
+    res.sendFile(__dirname + "/figma_job.html");
+})
+
+app.get("/flipkart",function(req,res){
+    res.sendFile(__dirname + "/flipkart_job.html");
+})
+
+app.get("/google",function(req,res){
+    res.sendFile(__dirname + "/google_job.html");
+})
+
+app.get("/microsoft",function(req,res){
+    res.sendFile(__dirname + "/microsoft_job.html");
+})
+
+app.get("/swiggy",function(req,res){
+    res.sendFile(__dirname + "/swiggy_job.html");
+})
+
+app.get("/uber",function(req,res){
+    res.sendFile(__dirname + "/uber_job.html");
+})
+
+app.get("/profile",function(req,res){
+    res.sendFile(__dirname + "/profile.html");
+});
+
+app.get("/edit-profile",function(req,res){
+    res.sendFile(__dirname + "/edit_profile.html");
+})
+
 
 app.post("/search",function(req,res){
     var companyName = req.body.jobSearch;

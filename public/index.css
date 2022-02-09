@@ -1,3 +1,6 @@
+
+
+
 /* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;500;&display=swap"); */
 /* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Roboto:wght@100&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;700&family=Roboto:wght@100;300;400;500&display=swap");
@@ -14,7 +17,7 @@ a{
 }
 /* body color */
 body {
-  background-color: #e5e5e5;
+  background-color: #F7F8FE;
 }
 .btn{
   padding: 10px;
@@ -264,14 +267,8 @@ nav ul li a.active{
 }
 /* css for company home page ends */
 /* 
-
-
 ////////////////////////////////////////////////////////////////
 ///////////////////////////
-
-
-
-
 */
 /* css for about us starts */
 .about_us_main_content {
@@ -381,20 +378,22 @@ nav ul li a.active{
 
   color: #4f4f4f;
 }
+@media screen and (max-width: 1024px) {
+  .about_us_images_container img {
+    width: 40%;
+  }
+  .about_us_image_overlap {
+    margin-top: -240px;
+  }
+	 .our_mission_image_container {
+    margin-top: -20px;
+  }
+}
 /* css fot about us ends */
 
 /* 
-
-
-
-
 ///////////////////////////
 ////////////////////////////////
-
-
-
-
-
 */
 
 /* css for job opening */
@@ -563,12 +562,7 @@ nav ul li a.active{
 }
 /* css for job open ends */
 /* 
-
-
-
-
 ///////////////////////////
-
 */
 
 /*css for edit profile starts */
@@ -652,17 +646,131 @@ nav ul li a.active{
 }
 /*css for edit profile ends */
 /* 
-
-
-
-
 ///////////////////////////
 ////////////////
-
-
-
-
 */
+
+/* css for profile starts */
+.profile_main_content {
+  /* height: 500px; */
+  margin-top: 50px;
+}
+.profile_name_main_conatiner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.profile_name_conatiner {
+  display: flex;
+}
+.profile_name_conatiner img {
+}
+
+.profile_name_conatiner div {
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 50%; */
+  max-width: 400px;
+
+  align-items: center;
+  justify-content: flex-start;
+}
+.profile_name_conatiner_name {
+  margin-top: auto;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 45px;
+  /* identical to box height, or 120% */
+
+  color: #292929;
+}
+.profile_name_conatiner_pos {
+  margin-bottom: auto;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+
+  /* display: flex; */
+  /* align-items: center; */
+
+  color: black;
+
+  /* Inside auto layout */
+}
+.post {
+  color: #4540db;
+}
+.Edit_Profile_Button {
+  color: #4540db;
+}
+a {
+  text-decoration: none;
+}
+.profile_about {
+  margin-top: 16px;
+  padding: 7px 16px 7px 16px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+
+  color: #060606;
+}
+.links_conatiner_main {
+  margin-top: 40px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.links_conatiner_main a:first-child {
+  margin-right: 24px;
+}
+.links_conatiner_main a:last-child {
+  margin-left: 24px;
+}
+.profile_qualites_conatiner {
+  display: flex;
+  flex-direction: row;
+  padding: 16px 0 16px 0;
+}
+
+.profile_qualites_btn {
+  color: #4540db;
+  background: #f7f8fe;
+  width: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 50px;
+  padding: 16px;
+  margin: 0 12px 0 12px;
+  /* font-size: 25px; */
+  /* flex-wrap: nowrap; */
+  /* css for text */ /* Product Designer */
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+
+  text-align: center;
+
+  color: #4540db;
+}
+.profile_qualites_btn img {
+  margin-right: 16px;
+}
+/*  css for profile ends*/
 
 /*footer*/
 .footer img{
@@ -757,5 +865,13 @@ nav ul li a.active{
   .nav-links li a:hover{
   color: #ffffff;
   }
+  nav ul li a:hover{
+    color: #ffffff;
+    transition: .2s;
+    text-decoration: underline;
   }
-
+  nav ul li a.active{
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  }

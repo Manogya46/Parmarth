@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="stylet.css">
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-
+  <script>(function(w, d) { w.CollectId = "61ff864dbe19f1762af04eb7"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-  <title>Parmarth |Home Page</title>
+  <title>Parmarth|Home Page</title>
 </head>
 <body>
   <!---hero Section start---->
@@ -26,7 +26,7 @@
 				<li><a href="/job-open"><button class="btn bg-white">Post a job</button></a></li>
         <li><i class="far fa-bell"></i></li>
 			</ul>
-		  <a href="#"><img src="images/profile (1).png"></a>
+		  <a href="/profile"><img src="images/profile (1).png"></a>
 			<div class="menu-btn">
 				<i class="fas fa-bars"></i>
 			</div>
@@ -146,7 +146,7 @@
         <div class="flex-row">
           <p class="btn-static mr1">Mid-level</p>
           <p class="btn-static">Full-time</p>
-          <button class="btn bg-blue ml6"  onclick="location.href='https://careers.swiggy.com/list.html?loc=1&dept=Engineering';">Apply</button>
+          <a href="/swiggy"><button class="btn bg-blue ml6" >View details</button></a> 
         </div>
       </div>
       <div class="container">
@@ -162,7 +162,7 @@
         <div class="flex-row">
           <p class="btn-static mr1">Mid-level</p>
           <p class="btn-static">Full-time</p>
-          <button class="btn bg-blue ml6" onclick="location.href='https://careers.google.com/jobs/results';">Apply</button>
+          <a href="/google"> <button class="btn bg-blue ml6" >View details</button></a>
           </div>
       </div>
       <div class="container">
@@ -178,7 +178,7 @@
         <div class="flex-row">
           <p class="btn-static mr1">Mid-level</p>
           <p class="btn-static">Full-time</p>
-          <button class="btn bg-blue ml6" onclick="location.href='https://www.figma.com/careers';">Apply</button>
+          <a href="/figma"><button class="btn bg-blue ml6">View details</button></a> 
           </div>
       </div>
     </div>
@@ -197,7 +197,7 @@
         <div class="flex-row">
           <p class="btn-static mr1">Mid-level</p>
           <p class="btn-static">Full-time</p>
-          <button class="btn bg-blue ml6" onclick="location.href='https://careers.microsoft.com/us/en';">Apply</button>
+          <a href="/microsoft"><button class="btn bg-blue ml6" >View details</button></a> 
           </div>
       </div>
       <div class="container">
@@ -213,7 +213,7 @@
         <div class="flex-row">
           <p class="btn-static mr1">Mid-level</p>
           <p class="btn-static">Full-time</p>
-          <button class="btn bg-blue ml6" onclick="location.href='https://www.uber.com/in/en/careers';">Apply</button>
+          <a href="/uber"><button class="btn bg-blue ml6">View details</button></a> 
           </div>
       </div>
       <div class="container">
@@ -234,7 +234,7 @@
           <p class="btn-static">Full-time</p>
           </div>
           <div class="flex-1">
-          <button class="btn bg-blue ml6" onclick="location.href='https://www.flipkartcareers.com/#!/joblist';">Apply</button>
+          <a href="/flipkart"><button class="btn bg-blue ml6">View details</button></a> 
           </div>
           </div>
       </div>
@@ -260,7 +260,7 @@
     <section class="footer">
       <div class="grid-wrapper">
         <div class="col-4 footer1">
-          <h1>Parmarth</h1>
+          <span><h1><img src="images/Logo.png" style="width:45px; height:45px;"/>&nbsp;Parmarth</h1></span>
           <div class="logos">
           <img src="images/logo5.png">
           <img src="images/logo1.png">
@@ -285,15 +285,14 @@
           </div>
     <div class="col-4 footer3">
       <h1>Employee</h1>
-      <h3>Profile</h3>
-      <h3>Your Account</h3>
+      <a href="/profile"><h3>Profile</h3></a> 
+      <a href="/profile"><h3>Your Account</h3></a>
       <h3>Grievances</h3>
       <a href="/job"><h3>Find a Job</h3></a> 
       <h3>Chat With Us</h3>
   </div>
 </div>
 </section> 
-<hr> 
   <footer id="copyright">
      <h3>Made by Team Spam Bytes @2022. All Rights Reserved.</h3>
 </footer>
