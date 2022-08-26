@@ -16,8 +16,8 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended:true}));
 
 
-var conn1 =  mongoose.createConnection('mongodb+srv://manogya:happy_m2@cluster0.mmsqz.mongodb.net/userDB');
-var conn2 =  mongoose.createConnection('mongodb+srv://manogya:happy_m2@cluster0.mmsqz.mongodb.net/companyDB');
+var conn1 =  mongoose.createConnection('mongodb+srv://test:doomsday@parmarthdb.nntxhvh.mongodb.net/userDB');
+var conn2 =  mongoose.createConnection('mongodb+srv://test:doomsday@parmarthdb.nntxhvh.mongodb.net/companyDB');
 
 var User = conn1.model('Model', new mongoose.Schema({
     name:String,
